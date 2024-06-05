@@ -1,0 +1,89 @@
+Nombre del Juego - TP Vampire S
+
+- Descripción
+Es un emocionante juego de acción inspirado en el popular título Vampire Survivors. En este juego, los jugadores asumen el papel del personaje principal, quien se enfrenta a oleadas de enemigos en un entorno cerrado. La adrenalina y la estrategia se combinan mientras los jugadores luchan por sobrevivir contra hordas de enemigos cada vez más difíciles.
+
+- Cómo Jugar
+AWSD - Flechas(Arriba, Abajo, Izquierda y Derecha) para mover al personaje por todo el mapa.
+Ctrl o Fire1 para atacar manualmente.
+sobrevive la mayor cantidad de tiempo que puedas.
+Las cervezas aumentan un poco la vida.
+
+Capturas de Pantalla / Videos
+Incluye imágenes o videos del juego en acción para dar a los usuarios una idea de cómo se ve y se juega.
+
+- Instalación
+1. Descarga Unity: Si aún no tienes instalado Unity en tu sistema, descárgalo e instálalo desde el sitio web oficial de Unity (https://unity.com/es).
+
+2. Clona o Descarga el Repositorio: Clona el repositorio del proyecto desde la plataforma de alojamiento GitHub.
+
+3. Abre Unity: Abre Unity en tu sistema y selecciona la opción "Abrir Proyecto". Navega hasta la carpeta donde clonaste o descargaste el proyecto y selecciona la carpeta raíz del proyecto para abrirlo en Unity.
+
+4. Revisión de Configuración: Una vez que el proyecto esté abierto en Unity, revisa la configuración del proyecto, como la configuración de la cámara, las escenas y cualquier otra configuración específica del proyecto que pueda ser necesaria para su correcto funcionamiento.
+
+5. Compilación y Ejecución: Compila el proyecto para asegurarte de que no haya errores de compilación y ejecuta el juego en el Editor de Unity para probar su funcionamiento. Asegúrate de que todas las funcionalidades principales estén presentes y funcionando correctamente.
+
+6. En la carpeta Game encuentras el ejecutable del juego con el nombre PT Vampire S, abrelo dandole click y ¡Listo para Jugar! Una vez que hayas configurado el proyecto y estés satisfecho con su funcionamiento, ¡ya estás listo para jugar!
+
+- Estructura del Código
+El código en el proyecto está organizado de manera clara y coherente para facilitar su comprensión y mantenimiento. A continuación se presenta una descripción general de la estructura del código:
+
+1. Carpeta Scripts:
+- PlayerMovements.cs:
+Este script se encarga de manejar el movimiento del personaje principal. Controla las acciones del jugador, como caminar, correr, saltar y cualquier otra interacción relacionada con el desplazamiento del personaje en el juego.
+
+- EnemyMovement.cs:
+El script EnemyMovement.cs controla el comportamiento de los enemigos dentro del juego. Define cómo se mueven los enemigos, cómo persiguen al jugador y cualquier otro comportamiento de movimiento específico para los enemigos en el juego.
+
+- SoundManager.cs:
+El SoundManager.cs gestiona todos los efectos de sonido y la música en el juego. Controla la reproducción de efectos de sonido para acciones del jugador, eventos del juego y la reproducción de música de fondo, garantizando una experiencia auditiva inmersiva.
+
+- ExperiencePickup.cs:
+Este script define el comportamiento de los objetos de recolección de experiencia dentro del juego. Cuando el jugador interactúa con estos objetos, se encarga de aumentar la experiencia del jugador de acuerdo con los parámetros definidos, como la cantidad de experiencia recogida.
+
+- EnemyDamager.cs:
+El script EnemyDamager.cs gestiona el daño infligido por los enemigos al jugador. Define cómo se calcula y aplica el daño cuando los enemigos atacan al jugador, así como cualquier otro comportamiento relacionado con el daño de los enemigos.
+
+- TorchWeapon.cs:
+TorchWeapon.cs es responsable de controlar el comportamiento del arma de antorcha en el juego. Define cómo se dispara la antorcha, cómo afecta a los enemigos y cualquier otra funcionalidad específica relacionada con el uso de la antorcha como arma.
+
+EnemySpawner.cs:
+- Este script se encarga de generar y controlar la aparición de enemigos dentro del juego. Define dónde y cuándo aparecerán los enemigos, así como cualquier ajuste relacionado con la dificultad y la frecuencia de aparición de los enemigos.
+
+- PlayerHealth.cs:
+PlayerHealth.cs controla la salud del jugador en el juego. Define cómo se calcula, gestiona y muestra la salud del jugador, así como cualquier efecto relacionado con la pérdida o ganancia de salud durante el juego.
+
+- CombatBToB.cs:
+Este script gestiona el combate cuerpo a cuerpo en el juego. Define cómo se llevan a cabo las interacciones de combate entre el jugador y los enemigos cuando están en un rango de combate cuerpo a cuerpo, incluidos los ataques y las animaciones asociadas.
+
+- DamageNumber.cs:
+DamageNumber.cs se encarga de mostrar los números de daño flotantes en el juego. Define cómo se generan y muestran los números de daño cuando el jugador o los enemigos infligen daño, proporcionando retroalimentación visual al jugador.
+
+- DamageNumberController.cs:
+Este script controla la generación y el comportamiento general de los números de daño flotantes en el juego. Define cómo se gestionan los números de daño, incluida su aparición, duración y cualquier otro ajuste relacionado con su presentación visual.
+
+- ExperienceLevelController.cs:
+ExperienceLevelController.cs gestiona la experiencia del jugador y su progreso de nivel en el juego. Define cómo se calcula, almacena y aplica la experiencia del jugador, así como cualquier recompensa o acción relacionada con el aumento de nivel del jugador.
+
+2. Carpeta Assets:
+Sprites: Contiene los sprites utilizados para los personajes, enemigos, y otros elementos visuales del juego.
+Audio: Almacena archivos de sonido utilizados para efectos de sonido y música de fondo.
+
+3. Carpeta Scenes:
+Level1: La escena principal del juego, donde se desarrolla la acción principal.
+
+- Dependencias
+Unity Engine: El juego está desarrollado utilizando Unity, por lo que se necesita tener instalado Unity Engine en tu sistema para ejecutar el juego.
+Assets de la Asset Store: El juego utiliza assets descargados de la Unity Asset Store. Esto puede incluir gráficos, sonidos, scripts u otros recursos que no son parte del paquete estándar de Unity.
+
+Créditos
+Daniel Valencia - VideoGame Dev.
+
+Licencia
+2005 - 2024 Unity Technologies / Version 2022.3.18f1
+
+Contacto
+D.valencia710@gmail.com - +57 3207224250 - Medellin/Colombia.
+
+Versiones
+Version 1.0
